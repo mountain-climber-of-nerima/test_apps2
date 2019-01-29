@@ -9,5 +9,5 @@ RUN apt-get install python3 python3-pip -y
 RUN pip3 install numpy pandas sklearn seaborn
 RUN pip3 install chainer Flask
 
-EXPOSE 5000
+EXPOSE 5001
 CMD ["python3", "run_keras_server.py"]
